@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Coco Shop</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Coco Shop Template">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+<link rel="stylesheet" href="text/css" href="styles/cart_trade.css">
+<!-- icont logo trên tiêu đề -->
+<link rel="icon" href="images/logo.gif.png" type="image/gif" />
+</head>
+
+<body>
+
+<div class="super_container">
+
+	<!-- Header -->
+
+	<header class="header ">
+		
+		<!-- Main Navigation -->
+		<div class="marquee"><marquee>Chào mừng bạn đến với Website của CoCoShop</marquee></div>
+		<div class="main_nav_container">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-right">
+						<div class="logo_container">
+							<a href="#">Coco<span>shop</span></a>
+						</div>
+						<nav class="navbar">
+							<ul class="navbar_menu">
+								<li><a href="#">Trang chủ</a></li>
+								<li>
+									<a href="">Sản Phẩm</a>
+									<ul class="sub-menu">
+										<li> <a href="">Áo Nam</a></li>
+										<li> <a href="">Áo Nữ</a></li>
+										<li> <a href="">Áo Nam Nữ</a></li>
+										<li> <a href="">Quần Nam</a></li>
+										<li> <a href="">Quần Nữ</a></li>  
+										<li> <a href="">Quần Nam Nữ</a></li>   
+									</ul>
+								</li>
+								<li><a href="single.html">Giới Thiệu</a></li>
+								<li><a href="#">Liên Hệ</a></li>
+
+							</ul>
+							<ul class="navbar_user">
+								<li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+								<li><a href="login/login.html"><i class="fa fa-sign-in" aria-hidden="true"></i></a></li>
+									<li class="checkout">
+									<a >
+										<div id="cart">
+											<i class="fa fa-shopping-cart " aria-hidden="true"></i>
+										</div>
+										
+									</a>
+									
+								</li> 
+								
+							
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</header>
+	<div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Giỏ Hàng</h5>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="cart-row">
+                    <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                    <span class="cart-price cart-header cart-column">Giá</span>
+                    <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                </div>
+                <div class="cart-items">
+
+                </div>
+                <div class="cart-total">
+                    <strong class="cart-total-title">Tổng Cộng:</strong>
+                    <span class="cart-total-price">0VNĐ</span>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                <button type="button" class="btn btn-primary order">Thanh Toán</button>
+            </div>
+        </div>
+    </div>
+</div>
+	<!-- Slider -->
+		<div class="row">
+			<div class="col-sm-12 ">
+				<div class="main_slider" style="background-image:url(images/background_main.png)">
+					<div class="container fill_height">
+						<div class="row align-items-center fill_height">
+							<div class="col">
+								<div class="main_slider_content">
+									<h6>Fashion Spring / Summer 2022</h6>
+									<h1>Get up to 30% 
+										<br>Off New Arrivals</br> 
+									</h1>
+									<div class="red_button shop_now_button"><a href="#">shop now</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+
+	<!-- Banner -->
+
+	<div class="banner">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="banner_item align-items-center" style="background-image:url(images/banner_1.jpg)">
+						<div class="banner_category">
+							<a>women's</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="banner_item align-items-center" style="background-image:url(images/banner_2.jpg)">
+						<div class="banner_category">
+							<a>Both's</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="banner_item align-items-center" style="background-image:url(images/banner_3.jpg)">
+						<div class="banner_category">
+							<a >men's</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- New Arrivals - Sản phẩm mới -->
+
+	<div class="new_arrivals">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<div class="section_title new_arrivals_title">
+						<h2>New Arrivals</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row align-items-center">
+				<div class="col text-center">
+					<div class="new_arrivals_sorting">
+						<ul class="arrivals_grid_sorting clearfix button-group filters-button-group">
+							<li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center active is-checked" data-filter="*">Tất Cả</li>
+							<li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center" data-filter=".women">Phái Đẹp</li>
+							<li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center" data-filter=".accessories">Phụ Kiện</li>
+							<li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center" data-filter=".men">Phái Mạnh</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+					<div class="row">
+						<div class="product-grid" data-isotope='{ "itemSelector": ".product-item", "layoutMode": "fitRows" }'>
+							<!-- Product 1 -->
+						<div class="col-md-3 col-xs-12 col-sm-4">
+							<div class="product-item men">
+								<div class="product discount product_filter">
+								<div class="product_image">
+									<img class="img-prd"src="images/men1.png" alt="">
+								</div>
+								<div class="favorite favorite_left"></div>
+								<div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-45%</span></div>
+								<div class="product_info">
+									<h6 class="product_name"><a href="#">Áo thun Polo nam phối màu cổ bẻ basic eMOTiON</a></h6>
+									<div class="product_price">299.000đ</div>
+								</div>
+								</div>
+								
+								<div class="red_button add_to_cart_button btn-cart" data-name="Áo thun Polo nam phối màu cổ bẻ basic eMOTiON" data-price="299000" 
+									data-quantity="1" data-image="images/men1.png"><a style="color: white ;">thêm vào giỏ</a></div>
+							</div>
+						</div>
+						
+
+						<!-- Product 2 -->
+						<div class="col-md-3 col-xs-12 col-sm-4">
+							<div class="product-item men">
+								<div class="product product_filter">
+									<div class="product_image">
+										<img class="img-prd" src="images/men2.png" alt="">
+									</div>
+									<div class="favorite"></div>
+									<div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
+									<div class="product_info">
+										<h6 class="product_name"><a href="#">Áo Thun Xanh Form Rộng</a></h6>
+										<div class="product_price">99.000đ</div>
+									</div>
+								</div>
+								<div class="red_button add_to_cart_button btn-cart" data-name="Áo Thun Xanh Form Rộng" data-price="399000" 
+									data-quantity="1" data-image="images/men2.png"><a style="color: white ;">thêm vào giỏ</a></div>
+							</div>	
+						</div>
+						
+
+						<!-- Product 3 -->
+						
+						<div class="col-md-3 col-xs-12 col-sm-4">
+							<div class="product-item men">
+								<div class="product product_filter">
+									<div class="product_image">
+										<img class="img-prd" src="images/men3.png" alt="">
+									</div>
+									<div class="favorite"></div>
+									<div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
+									<div class="product_info">
+										<h6 class="product_name"><a href="#">Áo Thun Đen</a></h6>
+										<div class="product_price">299.000đ</div>
+									</div>
+								</div>
+								<div class="red_button add_to_cart_button btn-cart" data-name="Áo Thun Đen" data-price="399000" 
+									data-quantity="1" data-image="images/men3.png"><a style="color: white ;">thêm vào giỏ</a></div>
+							</div>	
+						</div>
+						<!-- Product 4 -->
+
+						
+						<!--Product 5-->
+						<div class="col-md-3 col-xs-12 col-sm-4">
+							<div class="product-item men">
+								<div class="product product_filter">
+									<div class="product_image">
+										<img class="img-prd" src="images/men5.png" alt="">
+									</div>
+									<div class="favorite"></div>
+									<div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
+									<div class="product_info">
+										<h6 class="product_name"><a href="#">Áo Khoác Bóng Chày Chất liệu Vải Dù Cho Nam</a></h6>
+										<div class="product_price">199.000đ</div>
+									</div>
+								</div>
+								<div class="red_button add_to_cart_button btn-cart" data-name="Áo Khoác Bóng Chày Chất liệu Vải Dù Cho Nam" data-price="199000" 
+									data-quantity="1" data-image="images/men5.png"><a style="color: white ;">thêm vào giỏ</a></div>
+							</div>	
+						</div>
+
+						<!--Product 6-->
+						<div class="col-md-3 col-xs-12 col-sm-4">
+							<div class="product-item women">
+								<div class="product product_filter">
+									<div class="product_image">
+										<img class="img-prd" src="images/woman1.jpg" alt="">
+									</div>
+									<div class="favorite"></div>
+									<div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
+									<div class="product_info">
+										<h6 class="product_name"><a href="#">Đầm nữ có họa tiết cho công sở</a></h6>
+										<div class="product_price">399.000đ</div>
+									</div>
+								</div>
+								<div class="red_button add_to_cart_button btn-cart" data-name="Đầm nữ có họa tiết cho công sở" data-price="399000" 
+									data-quantity="1" data-image="images/woman1.jpg"><a style="color: white ;">thêm vào giỏ</a></div>
+							</div>	
+						</div>
+
+						<!--Product 7-->
+						<div class="col-md-3 col-xs-12 col-sm-4">
+							<div class="product-item men">
+								<div class="product product_filter">
+									<div class="product_image">
+										<img class="img-prd" src="images/men7.jpg" alt="">
+									</div>
+									<div class="favorite"></div>
+									<div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
+									<div class="product_info">
+										<h6 class="product_name"><a href="#">Quần Jean Cho Nam</a></h6>
+										<div class="product_price">199.000đ</div>
+									</div>
+								</div>
+								<div class="red_button add_to_cart_button btn-cart" data-name="Quần Jean Cho Nam" data-price="199000" 
+									data-quantity="1" data-image="images/men7.jpg"><a style="color: white ;">thêm vào giỏ</a></div>
+							</div>	
+						</div>
+
+						<!--Product 8-->
+						<div class="col-md-3 col-xs-12 col-sm-4">
+							<div class="product-item women">
+								<div class="product product_filter">
+									<div class="product_image">
+										<img class="img-prd" src="images/woman2.jpg" alt="">
+									</div>
+									<div class="favorite"></div>
+									<div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
+									<div class="product_info">
+										<h6 class="product_name"><a href="#">Quần Jean Cho Nữ</a></h6>
+										<div class="product_price">169.000đ</div>
+									</div>
+								</div>
+								<div class="red_button add_to_cart_button btn-cart" data-name="Quần Jean Cho Nữ" data-price="169000" 
+									data-quantity="1" data-image="images/woman2.jpg"><a style="color: white ;">thêm vào giỏ</a></div>
+							</div>	
+						</div>
+
+						<!--Product 9-->
+						<div class="col-md-3 col-xs-12 col-sm-4">
+							<div class="product-item women">
+								<div class="product product_filter">
+									<div class="product_image">
+										<img class="img-prd" src="images/woman3.jpg" alt="">
+									</div>
+									<div class="favorite"></div>
+									<div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
+									<div class="product_info">
+										<h6 class="product_name"><a href="#">Áo Phông Gucci x Disney</a></h6>
+										<div class="product_price">99.000đ</div>
+									</div>
+								</div>
+								<div class="red_button add_to_cart_button btn-cart" data-name="Áo Phông Gucci x Disney" data-price="99000" 
+									data-quantity="1" data-image="images/woman3.jpg"><a style="color: white ;">thêm vào giỏ</a></div>
+							</div>	
+						</div>
+
+
+
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Deal of the week -->
+
+	<div class="deal_ofthe_week">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6">
+					<div class="deal_ofthe_week_img">
+						<img src="images/deal1.png" alt="">
+					</div>
+				</div>
+				<div class="col-lg-6 text-right deal_ofthe_week_col">
+					<div class="deal_ofthe_week_content d-flex flex-column align-items-center float-right">
+						<div class="section_title">
+							<h2>Deal Of The Week</h2>
+						</div>
+						<ul class="timer">
+							<li class="d-inline-flex flex-column justify-content-center align-items-center">
+								<div id="day" class="timer_num">03</div>
+								<div class="timer_unit">Day</div>
+							</li>
+							<li class="d-inline-flex flex-column justify-content-center align-items-center">
+								<div id="hour" class="timer_num">15</div>
+								<div class="timer_unit">Hours</div>
+							</li>
+							<li class="d-inline-flex flex-column justify-content-center align-items-center">
+								<div id="minute" class="timer_num">45</div>
+								<div class="timer_unit">Mins</div>
+							</li>
+							<li class="d-inline-flex flex-column justify-content-center align-items-center">
+								<div id="second" class="timer_num">23</div>
+								<div class="timer_unit">Sec</div>
+							</li>
+						</ul>
+						<div class="red_button deal_ofthe_week_button"><a href="#">shop now</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- Benefit -->
+
+	<div class="benefit">
+		<div class="container">
+			<div class="row benefit_row">
+				<div class="col-lg-3 benefit_col">
+					<div class="benefit_item d-flex flex-row align-items-center">
+						<div class="benefit_icon"><i class="fa fa-truck" aria-hidden="true"></i></div>
+						<div class="benefit_content">
+							<h6>free ship</h6>
+							<p>Chỉ áp dụng với một số sản phẩm nhất định</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 benefit_col">
+					<div class="benefit_item d-flex flex-row align-items-center">
+						<div class="benefit_icon"><i class="fa fa-money" aria-hidden="true"></i></div>
+						<div class="benefit_content">
+							<h6>Thanh toán khi nhận hàng</h6>
+							<p>Nhận hàng trong vòng 1-2 ngày (5-6 ngày cho khách tỉnh lẻ )</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 benefit_col">
+					<div class="benefit_item d-flex flex-row align-items-center">
+						<div class="benefit_icon"><i class="fa fa-undo" aria-hidden="true"></i></div>
+						<div class="benefit_content">
+							<h6>15 ngày trả lại hàng</h6>
+							<p>Nếu sản phẩm bị lỗi hoặc không đúng như hàng mẫu</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 benefit_col">
+					<div class="benefit_item d-flex flex-row align-items-center">
+						<div class="benefit_icon"><i class="fa fa-clock-o" aria-hidden="true"></i></div>
+						<div class="benefit_content">
+							<h6>Mở cửa cả tuần</h6>
+							<p>8AM - 09PM</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	
+	
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="footer-cs footer-content">
+			<div class="container ">
+				<div class="row ">
+					<div class="col-md-3 font-cs">
+						<ul>
+							<strong>Danh mục hàng đầu</strong>
+							<li><a href="">Điện thoại iPhone</a></li>
+							<li><a href="">Điện thoại Samsung</a></li>
+							<li><a href="">Tai nghe Airpod</a></li>
+							<li><a href="">Máy cũ</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 c-6 ">
+						<ul>
+							<strong> Các chính sách</strong>
+							<li><a href="">Đổi trả hàng lỗi 1-1</a></li>
+							<li><a href="">Chính sách trả góp</a></li>
+							<li><a href="">Chính sách bảo hành</a></li>
+							<li><a href="">Thu cũ đổi mới</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 c-6">
+						<ul>
+							<ul>
+								<strong>HOT</strong>
+								<li><a href="">Điện thoại rẻ</a><span> - </span>
+									<a href="">Điện thoại cũ rẻ</a>
+								</li>
+								<li>
+									<a href="">iPhone 13</a><span> - </span>
+									<a href="">iPhone 12</a><span> - </span>
+									<a href="">iPhone 11</a>
+								</li>
+								<li><a href="">Điện thoại gập - Glaxy FOLD</a></li>
+								<li><a href="">Điện thoại cấu hình cao</a></li>
+							</ul>
+						</ul>
+					</div>
+					<div class="col-md-3 c-6">
+						<div class="box-payment">
+							<p class="text-pay">Phương thức thanh toán</p>
+							<ul class="payment">
+								<li>
+									<a href=""><img src="./images/visa.png" alt=""/></a>
+									<a href=""><img src="./images/ATM.png" alt=""/></a>
+									<a href=""><img src="./images/momo.png" alt=""/></a>
+									<a href=""><img src="./images/paypal.jfif" alt=""></a>
+									<a href=""><img src="./images/zalopay.png" alt=""></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer_nav_container text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div  class="box-icon">
+							<ul >
+								<li>
+									<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+									<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+									<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+									<a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a>
+									<a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+								</li>
+							</ul>
+						</div>
+						
+						<p class="reserved">©2022 CoCoShop All Rights Reserved</p> 
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+	</footer>
+
+</div>
+  	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="styles/bootstrap4/popper.js"></script>
+	<script src="styles/bootstrap4/bootstrap.min.js"></script>
+	<script src="plugins/Isotope/isotope.pkgd.min.js"></script>
+	<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/giohang.js"></script>
+
+</body>
+</html>
+

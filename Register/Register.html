@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<!-- file CSS -->
+<link rel="stylesheet" href="style0.css" />
+<link rel="icon" href="logo/logo.gif.png" type="image/gif" />
+</head>
+<body>
+<!-- file JavaScript -->
+<script language="javascript" src="java.js"></script>
+<form action="" method="POST" onsubmit="return validate()">
+<div class="register">
+    <div class="logo_container">
+        <a href="#">Coco<span>shop</span></a>
+    </div>
+<h1>Đăng ký</h1>
+<p>Vui lòng điền thông tin để đăng ký</p>
+<hr>
+<label for="username"><b>Tên đăng nhập</b></label>
+<input type="text" name="username" id="username">
+<label for="username"><b>Tài khoản Gmail</b></label><br></br>
+<input type="email" name="email" id="email">
+<br></br>
+<label for="password"><b>Mật khẩu</b></label>
+<input type="password" placeholder="**********" name="password" id="password">
+<label for="password-repeat"><b>Nhập lại mật khẩu</b></label>
+<input type="password" placeholder="**********" name="password-repeat" id="password-repeat">
+<label for="gioi_tinh"><b>Tôi là</b></label>
+<select id="sex">
+    <option selected="selected"> Nam</option>
+    <option value="Nu"> Nữ </option>
+</select>
+
+<hr>
+<p>Để tạo tài khoản vui lòng đồng ý với điều khoản của chúng tôi <a href="https://policies.google.com/terms?gl=VN&hl=vi">Terms & Privacy</a>.</p>
+<button type="submit" class="submit">Đăng ký</button>
+</div>
+<div class="register login">
+<p>Bạn đã có tài khoản rồi? <a href="https://accounts.google.com/signin/v2/identifier?hl=vi&passive=true&continue=https%3A%2F%2Fwww.google.com.vn%2F&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Đăng nhập</a>.</p>
+</div>
+</form>
+</body>
+</html>
